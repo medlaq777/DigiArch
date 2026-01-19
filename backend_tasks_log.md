@@ -1,0 +1,3 @@
+# Project Task Log
+
+- **2026-01-19** [DIG-17] (Frontend): Initialiser frontend Next.js

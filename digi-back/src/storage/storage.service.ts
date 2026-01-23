@@ -11,8 +11,8 @@ export class StorageService {
 
   constructor(private configService: ConfigService) {
     this.minioClient = new Minio.Client({
-      endPoint: 'localhost',
-      port: 9000,
+      endPoint: this.configService.get<string>('MINIO_ENDPOINT') || 'localhost',
+      port: parseInt(this.configService.get<string>('MINIO_PORT') || '9000'),
       useSSL: false,
       accessKey: this.configService.get<string>('MINIO_ROOT_USER') || 'minioadmin',
       secretKey: this.configService.get<string>('MINIO_ROOT_PASSWORD') || 'minioadmin',

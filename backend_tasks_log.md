@@ -9,3 +9,4 @@
 - **2026-01-22** [DIG-24]: Configurer la connexion MinIO
 - **2026-01-23** [DIG-26]: Implémenter l’authentification JWT
 - **2026-01-24** [DIG-27]: Mettre en place le hash des mots de passe
+- **2026-01-24** [DIG-28]: Implémenter AuthGuard

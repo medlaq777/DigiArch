@@ -11,3 +11,4 @@
 - **2026-01-24** [DIG-27]: Mettre en place le hash des mots de passe
 - **2026-01-24** [DIG-28]: Implémenter AuthGuard
 - **2026-01-25** [DIG-29]: Implémenter login
+- **2026-01-25** [DIG-30]: Implémenter logout

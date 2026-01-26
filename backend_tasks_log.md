@@ -12,3 +12,4 @@
 - **2026-01-24** [DIG-28]: Implémenter AuthGuard
 - **2026-01-25** [DIG-29]: Implémenter login
 - **2026-01-25** [DIG-30]: Implémenter logout
+- **2026-01-26** [DIG-32]: Implémenter RoleGuard

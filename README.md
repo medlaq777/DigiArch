@@ -21,8 +21,8 @@ Run the entire application (Backend + Frontend + Database + Storage) with a sing
 
 ```bash
 # 1. Configure Environment
-# Ensure .env exists in the root directory (copied from .env.example or manually created)
-# Update GEMINI_API_KEY
+# Ensure .env exists in the root directory
+# Update GEMINI_API_KEY in .env
 
 # 2. Start Services
 docker-compose up -d --build
@@ -41,3 +41,7 @@ docker-compose up -d --build
 - **Object Storage**: MinIO
 - **AI**: Google Gemini & Tesseract.js
 - **Containerization**: Docker
+
+---
+
+_Last Updated: January 27, 2026_

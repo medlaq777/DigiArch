@@ -14,3 +14,4 @@
 - **2026-01-25** [DIG-30]: Implémenter logout
 - **2026-01-26** [DIG-32]: Implémenter RoleGuard
 - **2026-01-26** [DIG-33]: Restreindre l’accès aux routes selon le rôle
+- **2026-01-27** [DIG-37]: Créer un utilisateur

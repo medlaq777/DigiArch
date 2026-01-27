@@ -8,3 +8,4 @@
 - **2026-01-24** [DIG-82] (Frontend): Implémenter des filtres dynamiques
 - **2026-01-25** [DIG-83] (Frontend): Afficher les résultats de recherche
 - **2026-01-26** [DIG-84] (Frontend): Permettre l’accès rapide aux documents
+- **2026-01-27** [DIG-70] (Frontend): Afficher une prévisualisation PDF

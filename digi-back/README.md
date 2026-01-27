@@ -47,7 +47,4 @@ npm run start:dev
 ```bash
 # Unit tests
 npm run test
-
-# E2E tests
-npm run test:e2e
 ```

@@ -5,13 +5,7 @@
 ## 📂 Project Structure
 
 - **`digi-back/`**: Backend API built with **NestJS**.
-  - **Authentication**: JWT & Role-based Access Control (RBAC).
-  - **Storage**: Secure file storage using **MinIO**.
-  - **AI Processing**:
-    - **OCR**: Text extraction via `tesseract.js`.
-    - **LLM**: Metadata extraction using **Google Gemini**.
-    - **Classification**: Automatic folder structuring.
-  - **Database**: Metadata indexing with **MongoDB**.
+- **`digi-front/`**: Frontend Application built with **Next.js**.
 
 ## 🚀 Getting Started
 
@@ -21,27 +15,28 @@
 - Node.js (v20+)
 - Google Gemini API Key
 
-### Backend Setup
+### Quick Launch (Full Stack)
 
-Navigate to the backend directory and follow the instructions:
-
-```bash
-cd digi-back
-# See digi-back/README.md for detailed setup, env configuration, and running instructions.
-```
-
-### Quick Launch (Infrastructure)
+Run the entire application (Backend + Frontend + Database + Storage) with a single command:
 
 ```bash
-cd digi-back
-docker-compose up -d
-npm install
-npm run start:dev
+# 1. Configure Environment
+# Ensure .env exists in the root directory (copied from .env.example or manually created)
+# Update GEMINI_API_KEY
+
+# 2. Start Services
+docker-compose up -d --build
 ```
+
+### Access Points
+
+- **Frontend**: `http://localhost:3000`
+- **Backend API**: `http://localhost:3001`
+- **MinIO Console**: `http://localhost:9001` (User/Pass: `minioadmin`)
 
 ## 🛠 Technologies
 
-- **Framework**: NestJS
+- **Frameworks**: NestJS (Back), Next.js (Front)
 - **Database**: MongoDB
 - **Object Storage**: MinIO
 - **AI**: Google Gemini & Tesseract.js

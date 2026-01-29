@@ -18,3 +18,4 @@
 - **2026-01-28** [DIG-38]: Modifier un utilisateur
 - **2026-01-28** [DIG-39]: Supprimer un utilisateur
 - **2026-01-29** [DIG-40]: Lister les utilisateurs
+- **2026-01-29** [DIG-41]: Valider les données utilisateurs

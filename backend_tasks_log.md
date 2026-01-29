@@ -10,3 +10,4 @@
 - **2026-01-26** [DIG-84] (Frontend): Permettre l’accès rapide aux documents
 - **2026-01-27** [DIG-70] (Frontend): Afficher une prévisualisation PDF
 - **2026-01-28** [DIG-71] (Frontend): Permettre le téléchargement du document
+- **2026-01-29** [DIG-88] (Frontend): Mettre en place un dashboard global

@@ -20,11 +20,6 @@
 Run the entire application (Backend + Frontend + Database + Storage) with a single command:
 
 ```bash
-# 1. Configure Environment
-# Ensure .env exists in the root directory
-# Update GEMINI_API_KEY in .env
-
-# 2. Start Services
 docker-compose up -d --build
 ```
 
